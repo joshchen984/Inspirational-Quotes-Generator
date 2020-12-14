@@ -2,14 +2,22 @@
 In this project I used a 1 layer character based LSTM to try and generate inspirational quotes. I made this in Python 3 using Tensorflow 2. Model was trained for 7 hours with a GPU using google colab. I got a validation loss of 1.387 using categorical crossentropy.
 
 ## Usage
+###Running it Locally
+#### Requirements
+If you want to run this on your local machine you will need numpy, pandas, and tensorflow 2.
+
+~~~
+git clone https://github.com/joshchen984/Inspirational-Quotes-Generator.git
+python generate.py
+~~~
+
+###Running it on Colab
 Open the notebook in Google Colab. Run the first cell that imports all the necessary libraries. Run all cells under the sections "Loading Data" and "Cleaning Data". When prompted for a file, upload quotes.zip. Now If you just want to generate quotes then scroll until you see the section "Using Model".
 
 Run each cell under "Using Model". When prompted for a file, upload quote-model.h5
 
 To generate new quotes run the last cell that calls the function "generate()"
 
-## Requirements
-If you want to run this on your local machine you will need numpy, pandas, and tensorflow.
 
 ## Generated Quotes
 The confident with the world and a fact to decide that the more than the part of the fact is matter
